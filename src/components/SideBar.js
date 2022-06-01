@@ -7,7 +7,7 @@ const SideBar = () => {
     <>
         <div className='aside'>
             <div className='logo'>
-                <a href='#'><span>M</span>ats</a>
+                <a href='#'><span>爪</span>ats</a>
             </div>
             <div className='nav-toggler'>
                 <span></span>
