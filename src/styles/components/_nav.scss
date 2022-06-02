@@ -1,11 +1,19 @@
 @import "../variables/variables";
 
 .section {
-    background: $bg-black-900;
     min-height: 100vh;
     display: block;
-    opacity: 1;
     padding: 0 30px;
+    opacity: 1;
+    position: fixed;
+    left: 270px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.3s ease;
 }
 
 .aside {

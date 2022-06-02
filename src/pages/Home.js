@@ -1,4 +1,5 @@
 import image from "../images/user-male-icon.png";
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -14,10 +15,10 @@ const Home = () => {
                         <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;
                            dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.
                         </p>
-                        <a href='#contact' className='btn hire-me'>More About Me</a>
+                        <Link to={'/about'} className='btn hire-me'>More About Me</Link>
                     </div>
                     <div className='home-img padd-15'>
-                        <img src={image} alt='profile image'></img>
+                        <img src={image} alt='profile'></img>
                     </div>
               </div>
           </div>

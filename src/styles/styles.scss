@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 @import "./components/nav";
 @import "./components/home";
+@import "./components/about";
 
 
 
@@ -48,4 +49,14 @@ img {
     max-width: 1100px;
     width: 100%;
     margin: auto;
+}
+
+.section .container {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+
+.hidden {
+    display: none !important;
 }
