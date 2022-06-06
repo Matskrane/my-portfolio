@@ -16,7 +16,7 @@ const About = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h3>
-                    I'm Mats Krane and <span>Frontend Developer</span>
+                    I'm Mats Lian Krane and a <span>Frontend Developer</span>
                   </h3>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -81,29 +81,29 @@ const About = () => {
                     <div className="skill-item padd-15">
                       <h5>JS</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{width: '86%}'}}></div>
-                        <div className="skill-percent">86%</div>
+                        <div className="progress-in" style={{width: '60%'}}></div>
+                        <div className="skill-percent">60%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>PHP</h5>
+                      <h5>React</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{width: '66%}'}}></div>
-                        <div className="skill-percent">66%</div>
+                        <div className="progress-in" style={{width: '70%'}}></div>
+                        <div className="skill-percent">70%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>HTML</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{width: '50%}'}}></div>
-                        <div className="skill-percent">96%</div>
+                        <div className="progress-in" style={{width: '80%'}}></div>
+                        <div className="skill-percent">80%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>Bootstrap</h5>
+                      <h5>CSS</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{width: '70%}'}}></div>
-                        <div className="skill-percent">76%</div>
+                        <div className="progress-in" style={{width: '80%'}}></div>
+                        <div className="skill-percent">80%</div>
                       </div>
                     </div>
                   </div>
@@ -118,10 +118,10 @@ const About = () => {
                         <div className="timeline-item">
                           <div className="circle-dot"></div>
                           <h3 className="timeline-date">
-                            <i className="fa fa-calendar"></i> 2013 - 2015
+                            <i className="fa fa-calendar"></i> 2013 - 2018
                           </h3>
                           <h4 className="timeline-title">
-                            Master in Computer Science
+                            Tärnaby Alpine School
                           </h4>
                           <p className="timeline-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -134,10 +134,10 @@ const About = () => {
                         <div className="timeline-item">
                           <div className="circle-dot"></div>
                           <h3 className="timeline-date">
-                            <i className="fa fa-calendar"></i> 2013 - 2015
+                            <i className="fa fa-calendar"></i> 2020 - 2022
                           </h3>
                           <h4 className="timeline-title">
-                            Master in Computer Science
+                            Noroff Frontend
                           </h4>
                           <p className="timeline-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -147,37 +147,22 @@ const About = () => {
                           </p>
                         </div>
 
-                        <div className="timeline-item">
-                          <div className="circle-dot"></div>
-                          <h3 className="timeline-date">
-                            <i className="fa fa-calendar"></i> 2013 - 2015
-                          </h3>
-                          <h4 className="timeline-title">
-                            Master in Computer Science
-                          </h4>
-                          <p className="timeline-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. A, maiores. Facere, minus? Quam minus autem
-                            quidem similique dignissimos cumque dolorum quis
-                            optio blanditiis, doloremque veritatis.
-                          </p>
-                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div className="experience padd-15">
-                  <h3 className="title">Experience</h3>
+                  <h3 className="title">Work</h3>
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
                         <div className="timeline-item">
                           <div className="circle-dot"></div>
                           <h3 className="timeline-date">
-                            <i className="fa fa-calendar"></i> 2013 - 2015
+                            <i className="fa fa-calendar"></i> 2016 - 2021
                           </h3>
                           <h4 className="timeline-title">
-                            Master in Computer Science
+                            Nokas Security
                           </h4>
                           <p className="timeline-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -190,10 +175,10 @@ const About = () => {
                         <div className="timeline-item">
                           <div className="circle-dot"></div>
                           <h3 className="timeline-date">
-                            <i className="fa fa-calendar"></i> 2013 - 2015
+                            <i className="fa fa-calendar"></i> 2021 - 2022
                           </h3>
                           <h4 className="timeline-title">
-                            Master in Computer Science
+                            Vinmonopolet
                           </h4>
                           <p className="timeline-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing
@@ -203,21 +188,6 @@ const About = () => {
                           </p>
                         </div>
 
-                        <div className="timeline-item">
-                          <div className="circle-dot"></div>
-                          <h3 className="timeline-date">
-                            <i className="fa fa-calendar"></i> 2013 - 2015
-                          </h3>
-                          <h4 className="timeline-title">
-                            Master in Computer Science
-                          </h4>
-                          <p className="timeline-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. A, maiores. Facere, minus? Quam minus autem
-                            quidem similique dignissimos cumque dolorum quis
-                            optio blanditiis, doloremque veritatis.
-                          </p>
-                        </div>
                       </div>
                     </div>
                   </div>

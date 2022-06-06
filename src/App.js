@@ -3,6 +3,8 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import SideBar from "./components/SideBar";
 import Projects from './pages/Projects';
+import ThemeSwitcher from './components/ThemeSwitcher';
+import Contact from './pages/Contact';
 
 
 
@@ -16,7 +18,9 @@ function App() {
     <Route index element={<Home />} />
     <Route path='/about' element={<About />} />
     <Route path='/projects' element={<Projects />} />
+    <Route path='/contact' element={<Contact />} />
     </Routes>
+    <ThemeSwitcher />
     </div>
     </Router>
     </>

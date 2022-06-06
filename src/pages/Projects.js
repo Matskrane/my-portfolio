@@ -20,7 +20,16 @@ const Projects = () => {
             <div className="portfolio-item padd-15">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="images/portfolio/portfolio-1.jpg" alt="" />
+                  <img src="/images/holidaze.png" alt="" />
+                </div>
+              </div>
+            </div>
+            
+             
+             <div className="portfolio-item padd-15">
+              <div className="portfolio-item-inner shadow-dark">
+                <div className="portfolio-img">                 
+                  <img src="/images/strapi-project (13).png" alt="" />
                 </div>
               </div>
             </div>
@@ -29,7 +38,7 @@ const Projects = () => {
              <div className="portfolio-item padd-15">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="images/portfolio/portfolio-2.jpg" alt="" />
+                  <img src="/images/blog.png" alt="" />
                 </div>
               </div>
             </div>
@@ -38,16 +47,7 @@ const Projects = () => {
              <div className="portfolio-item padd-15">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="images/portfolio/portfolio-3.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-            
-             
-             <div className="portfolio-item padd-15">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="images/portfolio/portfolio-4.jpg" alt="" />
+                  <img src="/images/bootstrap-project.png" alt="" />
                 </div>
               </div>
             </div>
