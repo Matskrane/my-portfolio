@@ -164,3 +164,58 @@
     text-align: justify;
     color: $text-black-700;
 }
+
+// Dark Mode
+
+#dark {
+    .about .about-content .about-text h3 {
+        color: $dark-text-black-900;
+    }
+    .about .about-content .about-text h3 span {
+        color: $orange-skin-color;
+    }
+    .about .about-content .about-text p {
+        color: $dark-text-black-700;
+    }
+    .about .about-content .personal-info .info-item p {
+        color: $dark-text-black-900;
+        border-bottom: 1px solid $dark-bg-black-50;
+    }
+    .about .about-content .personal-info .info-item p span {
+        color: $dark-text-black-700;
+    }
+    .about .about-content .skills .skill-item h5 {
+        color: $dark-text-black-900;
+    }
+    .about .about-content .skills .skill-item .progress {
+        background-color: $dark-bg-black-50;
+    }
+    .about .about-content .skills .skill-item .progress .progress-in {
+        background-color: $orange-skin-color;
+    }
+    .about .about-content .skills .skill-item .skill-percent {
+        color: $dark-text-black-900;
+    }
+    .about .about-content h3.title {
+        color: $dark-text-black-900;
+    }
+    .about .about-content .timeline {
+        background-color: $dark-bg-black-100;
+        border: 1px solid $dark-bg-black-50;
+    }
+    .about .about-content .timeline .timeline-item::before {
+        background-color: $orange-skin-color;
+    }
+    .about .about-content .timeline .circle-dot {
+        background-color: $orange-skin-color;
+    }
+    .about .about-content .timeline .timeline-date {
+        color: $dark-text-black-700;
+    }
+    .about .about-content .timeline .timeline-title {
+        color: $dark-text-black-900;
+    }
+    .about .about-content .timeline .timeline-text {
+        color: $dark-text-black-700;
+    }
+}

@@ -10,40 +10,31 @@ const Contact = () => {
               <h2>Contact Me</h2>
             </div>
           </div>
-          <h3 className="contact-title padd-15">Have You Any Questions ?</h3>
-          <h4 className="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+
           <div className="row">
             
             <div className="contact-info-item padd-15">
               <div className="icon"><i className="fa fa-phone"></i></div>
-              <h4>Call Us On</h4>
-              <p>+92 3330545218</p>
+              <h4>Call Me On</h4>
+              <p>+47 90964379</p>
             </div>
-            
-             
-             <div className="contact-info-item padd-15">
-              <div className="icon"><i className="fa fa-map-marker-alt"></i></div>
-              <h4>Office</h4>
-              <p>Islamabad</p>
-            </div>
-            
+      
              
              <div className="contact-info-item padd-15">
               <div className="icon"><i className="fa fa-envelope"></i></div>
               <h4>Email</h4>
-              <p>info@gmail.com</p>
+              <p>Mats_krane@hotmail.com</p>
             </div>
             
              
              <div className="contact-info-item padd-15">
               <div className="icon"><i className="fa fa-globe-europe"></i></div>
               <h4>Website</h4>
-              <p>www.domain.com</p>
+              <p>www.matskrane.no</p>
             </div>
             
           </div>
           <h3 className="contact-title padd-15">SEND ME AN EMAIL</h3>
-          <h4 className="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGES</h4>
 
           <div className="row">
             <div className="contact-form padd-15">

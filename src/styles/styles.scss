@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
-@import "./components/nav";
+@import "./variables/variables";
+@import "./components/sideBar";
 @import "./components/home";
 @import "./components/about";
-@import "./components/themeSwitcher";
 @import "./components/projects";
 @import "./components/contact";
-
 
 
 *{
@@ -59,7 +58,34 @@ img {
     padding-bottom: 70px;
 }
 
+// Switcher
 
-.hidden {
-    display: none !important;
+.switch {
+    margin-left: 90%;
 }
+
+.switch > div > div {
+    transition-duration: 350ms;
+}
+
+.switch label {
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+#light .switch label {
+    color: $text-black-900;
+}
+
+#dark .main-container .switch label {
+    color: $dark-text-black-900 !important;
+}
+
+
+
+
+
+
+
+

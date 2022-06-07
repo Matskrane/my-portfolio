@@ -33,3 +33,14 @@
     display: block;
     height: 250px;
 }
+
+// Dark Mode
+
+#dark {
+    .portfolio .portfolio-item-inner {
+        border: 6px solid $dark-bg-black-100;
+    }
+    .portfolio .portfolio-heading h2 {
+        color: $dark-text-black-900;
+    }
+}

@@ -101,3 +101,32 @@ h3.my-profession {
 .btn:hover {
     transform: scale(1.05);
 }
+
+
+// Dark Mode 
+
+#dark {
+    .home {
+        color: $dark-text-black-900;
+    }
+    h3.hello span {
+        color: $orange-skin-color;
+    }
+    .typing {
+        color: $orange-skin-color;
+    }   
+    .home-info p {
+        color: $dark-text-black-700;
+    }  
+    .home .home-img::after {
+        border-bottom: 10px solid $orange-skin-color;
+        border-right: 10px solid $orange-skin-color;
+    }
+    .home .home-img::before {
+        border-top: 10px solid $orange-skin-color;
+        border-left: 10px solid $orange-skin-color;
+    }
+    .btn {
+        background: $orange-skin-color;
+    }
+}
