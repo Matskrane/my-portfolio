@@ -74,12 +74,12 @@ img {
     color: white;
 }
 
-#light .switch label {
-    color: $text-black-900;
+#dark .active {
+    color: $orange-skin-color !important;
 }
 
-#dark .main-container .switch label {
-    color: $dark-text-black-900 !important;
+#light .active {
+    color: $skin-color;
 }
 
 

@@ -1,9 +1,16 @@
 import { faBriefcase, faComments, faHouse, faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 
 
 const SideBar = () => {
+
+    const currentActiveNavLink = ({ isActive }) => {
+        return {
+            color: isActive  
+        }
+    }
+    
   return (
     <>
         <div className='aside'>
@@ -14,10 +21,10 @@ const SideBar = () => {
                 <span></span>
             </div>
             <ul className='nav'>
-                <li><Link to={'/'}><FontAwesomeIcon icon={faHouse} />Home</Link></li>
-                <li><Link to={'/about'}><FontAwesomeIcon icon={faUser} />About</Link></li>
-                <li><Link to={'/projects'}><FontAwesomeIcon icon={faBriefcase} />Projects</Link></li>
-                <li><Link to={'/contact'}><FontAwesomeIcon icon={faComments} />Contact</Link></li>
+                <li><NavLink style={currentActiveNavLink} to={'/'}><FontAwesomeIcon  icon={faHouse} />Home</NavLink></li>
+                <li><NavLink style={currentActiveNavLink} to={'/about'}><FontAwesomeIcon  icon={faUser} />About</NavLink></li>
+                <li><NavLink style={currentActiveNavLink} to={'/projects'}><FontAwesomeIcon icon={faBriefcase} />Projects</NavLink></li>
+                <li><NavLink style={currentActiveNavLink} to={'/contact'}><FontAwesomeIcon icon={faComments} />Contact</NavLink></li>
             </ul>
         </div>
     </>

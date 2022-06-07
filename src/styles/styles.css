@@ -425,6 +425,7 @@ h3.my-profession {
 }
 
 .about .about-content .timeline {
+  box-shadow: rgba(214, 214, 214, 0.25) 0px 2px 5px 2px, rgba(158, 155, 155, 0.3) 2px 1px 7px 3px;
   background-color: #fdf9ff;
   padding: 30px 15px;
   border: 1px solid #e8dfec;
@@ -663,6 +664,7 @@ h3.my-profession {
 
 .contact .contact-form .form-item textarea.form-control {
   height: 140px;
+  resize: none;
 }
 
 .contact .contact-form .btn {
@@ -754,10 +756,10 @@ img {
   color: white;
 }
 
-#light .switch label {
-  color: #302e4d;
+#dark .active {
+  color: #fa5b0f !important;
 }
 
-#dark .main-container .switch label {
-  color: #ffffff !important;
+#light .active {
+  color: #ec1839;
 }/*# sourceMappingURL=styles.css.map */
