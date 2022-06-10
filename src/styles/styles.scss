@@ -117,12 +117,13 @@ img {
     {
         left: 0;
     }
-    .aside .nav-toggler
+    .nav-toggler
     {
         display: flex;
         left: 30px;
+        z-index: 11;
     }
-    .aside .nav-toggler.open 
+    .nav-toggler.open 
     {
         left: 300px;
     }
