@@ -34,6 +34,68 @@
     height: 250px;
 }
 
+.project-info {
+    background-color: $bg-black-100;
+}
+
+.project-info h4 {
+    color: $text-black-900;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-bottom: 2px solid $bg-black-50;
+}
+
+.project-info h5 {
+    font-size: 15px;
+    margin-top: 10px;
+    color: $text-black-900;
+}
+
+.stack {
+    color: $text-black-700;
+    display: flex;
+}
+
+.stack li {
+    list-style-type: circle;
+    margin-left: 15px;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+.stack li::marker {
+    color: $skin-color;
+}
+
+.stack ul li::before {
+    content: "\2022";
+    color: $skin-color;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1.18em; 
+}
+
+.stack-used li {
+    margin-top: 10px;
+}
+
+.project-links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+.project-links a {
+    color: $text-black-700;
+    border-bottom: 2px solid $bg-black-50;
+}
+
 // Dark Mode
 
 #dark {

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 .section {
   background: #f2f2fc;
@@ -616,6 +617,68 @@ h3.my-profession {
   width: 100%;
   display: block;
   height: 250px;
+}
+
+.project-info {
+  background-color: #fdf9ff;
+}
+
+.project-info h4 {
+  color: #302e4d;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  border-bottom: 2px solid #e8dfec;
+}
+
+.project-info h5 {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #302e4d;
+}
+
+.stack {
+  color: #504e70;
+  display: flex;
+}
+
+.stack li {
+  list-style-type: circle;
+  margin-left: 15px;
+  padding-right: 5px;
+  margin-top: 5px;
+}
+
+.stack li::marker {
+  color: #ec1839;
+}
+
+.stack ul li::before {
+  content: "•";
+  color: #ec1839;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.18em;
+}
+
+.stack-used li {
+  margin-top: 10px;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  font-weight: 500;
+}
+
+.project-links a {
+  color: #504e70;
+  border-bottom: 2px solid #e8dfec;
 }
 
 #dark .portfolio .portfolio-item-inner {
