@@ -16,27 +16,33 @@ const SideBar = () => {
     
   return (
     <>  
-
-<div onClick={() => setToggle(!toggle)} className='nav-toggler'>
+        <div onClick={() => setToggle(!toggle)} className='nav-toggler'>
             <span></span>
         </div>
         {toggle && (
-        <div className='aside'>
+        <div className='aside mobile'>
             <div className='logo'>
                 <Link to={'/'}><span>𝗠</span>ats</Link>
-            </div>
-
-
-            
+            </div>     
             <ul className='nav'>
                 <li><NavLink style={currentActiveNavLink} to={'/'}><FontAwesomeIcon  icon={faHouse} />Home</NavLink></li>
                 <li><NavLink style={currentActiveNavLink} to={'/about'}><FontAwesomeIcon  icon={faUser} />About</NavLink></li>
                 <li><NavLink style={currentActiveNavLink} to={'/projects'}><FontAwesomeIcon icon={faBriefcase} />Projects</NavLink></li>
                 <li><NavLink style={currentActiveNavLink} to={'/contact'}><FontAwesomeIcon icon={faComments} />Contact</NavLink></li>
-            </ul>
-            
+            </ul>         
         </div>
         )}
+               <div className='aside desktop'>
+            <div className='logo'>
+                <Link to={'/'}><span>𝗠</span>ats</Link>
+            </div>     
+            <ul className='nav'>
+                <li><NavLink style={currentActiveNavLink} to={'/'}><FontAwesomeIcon  icon={faHouse} />Home</NavLink></li>
+                <li><NavLink style={currentActiveNavLink} to={'/about'}><FontAwesomeIcon  icon={faUser} />About</NavLink></li>
+                <li><NavLink style={currentActiveNavLink} to={'/projects'}><FontAwesomeIcon icon={faBriefcase} />Projects</NavLink></li>
+                <li><NavLink style={currentActiveNavLink} to={'/contact'}><FontAwesomeIcon icon={faComments} />Contact</NavLink></li>
+            </ul>         
+        </div>
     </>
   )
 }

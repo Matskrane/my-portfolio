@@ -174,4 +174,13 @@
         border-bottom: 2px solid $dark-bg-black-50;
         color: $dark-text-black-900;
     }
+    .nav-toggler {
+        background-color: $dark-bg-black-100;
+        border: 1px solid $dark-bg-black-50;
+    }
+    .nav-toggler span,
+    .nav-toggler span::after,
+    .nav-toggler span::before {
+        background-color: $orange-skin-color;
+    }
 } 
