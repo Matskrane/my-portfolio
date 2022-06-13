@@ -58,6 +58,28 @@ img {
     padding-bottom: 70px;
 }
 
+.section-title h2::before
+{
+    content: '';
+    height: 4px;
+    width: 50px;
+    background-color: $skin-color;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.section-title h2::after
+{
+    content: '';
+    height: 4px;
+    width: 25px;
+    background-color: $skin-color;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 8px;
+}
+
 // Switcher
 
 .switch {
@@ -86,7 +108,7 @@ img {
 
 #dark {
 
-    .css-59eqj6-MuiSwitch-root .MuiSwitch-thumb {
+    .MuiSwitch-thumb {
         background-color: $orange-skin-color;
     }
 }
@@ -131,11 +153,13 @@ img {
         display: block;
         margin-left: 0;
     }
-    .switch {
-        bottom: 10%;
+    .label {
+        font-size: 13px;
     }
 
-
+    .switch label {
+        width: 120px;
+    }
 }
 
 @media(max-width:991px) {

@@ -12,7 +12,7 @@ const SideBar = () => {
         }
     };
     
-    const [toggle, setToggle] = useState(true);
+    const [toggle, setToggle] = useState(false);
     
   return (
     <>  
@@ -24,7 +24,7 @@ const SideBar = () => {
             <div className='logo'>
                 <Link to={'/'}><span>𝗠</span>ats</Link>
             </div>     
-            <ul className='nav'>
+            <ul onClick={() => setToggle(!toggle)} className='nav'>
                 <li><NavLink style={currentActiveNavLink} to={'/'}><FontAwesomeIcon  icon={faHouse} />Home</NavLink></li>
                 <li><NavLink style={currentActiveNavLink} to={'/about'}><FontAwesomeIcon  icon={faUser} />About</NavLink></li>
                 <li><NavLink style={currentActiveNavLink} to={'/projects'}><FontAwesomeIcon icon={faBriefcase} />Projects</NavLink></li>

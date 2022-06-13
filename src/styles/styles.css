@@ -16,11 +16,38 @@
   transition: all 0.3s ease;
 }
 
+.section-title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
 .section-title h2 {
   font-size: 40px;
   color: #302e4d;
   font-weight: 700;
   position: relative;
+}
+
+.section-title h2::before {
+  content: "";
+  height: 4px;
+  width: 50px;
+  background-color: #ec1839;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.section-title h2::after {
+  content: "";
+  height: 4px;
+  width: 25px;
+  background-color: #ec1839;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
 }
 
 .aside {
@@ -148,6 +175,12 @@
 }
 #dark .section-title h2 {
   color: #ffffff;
+}
+#dark .section-title h2::before {
+  background-color: #fa5b0f;
+}
+#dark .section-title h2::after {
+  background-color: #fa5b0f;
 }
 #dark .aside {
   background: #222222;
@@ -751,6 +784,27 @@ img {
   padding-bottom: 70px;
 }
 
+.section-title h2::before {
+  content: "";
+  height: 4px;
+  width: 50px;
+  background-color: #ec1839;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+.section-title h2::after {
+  content: "";
+  height: 4px;
+  width: 25px;
+  background-color: #ec1839;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 8px;
+}
+
 .switch {
   margin-left: 90%;
   display: flex;
@@ -772,7 +826,7 @@ img {
   color: #302e4d;
 }
 
-#dark .css-59eqj6-MuiSwitch-root .MuiSwitch-thumb {
+#dark .MuiSwitch-thumb {
   background-color: #fa5b0f;
 }
 
@@ -819,8 +873,12 @@ img {
     margin-left: 0;
   }
 
-  .switch {
-    bottom: 10%;
+  .label {
+    font-size: 13px;
+  }
+
+  .switch label {
+    width: 120px;
   }
 }
 @media (max-width: 991px) {
