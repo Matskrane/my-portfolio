@@ -20,7 +20,7 @@
   flex: 0 0 100%;
   max-width: 100%;
   margin-bottom: 60px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .section-title h2 {
@@ -801,6 +801,7 @@ img {
   z-index: 1;
   position: relative;
   font-weight: bold;
+  margin-bottom: -5px;
 }
 
 #light .label {
@@ -905,5 +906,9 @@ img {
 
   .section-title {
     margin-bottom: 40px;
+  }
+
+  .about .about-content .personal-info .info-item span {
+    word-break: break-all;
   }
 }/*# sourceMappingURL=styles.css.map */

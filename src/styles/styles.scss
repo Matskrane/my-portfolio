@@ -77,6 +77,7 @@ img {
     z-index: 1;
     position: relative;
     font-weight: bold;
+    margin-bottom: -5px;
 }
 
 #light {
@@ -179,6 +180,9 @@ img {
     }
     .section-title {
         margin-bottom: 40px;
+    }
+    .about .about-content .personal-info .info-item span {
+        word-break: break-all;
     }
 }
 
