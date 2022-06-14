@@ -44,8 +44,8 @@ const Projects = () => {
                     </div>
                   </div>
                   <div className="project-links">
-                    <a>Github</a>
-                    <a>Live Demo</a>
+                    <a href="https://github.com/Matskrane/project-exam-2-Matskrane">Github</a>
+                    <a href="https://project-exam-2-matskranes.vercel.app/">Live Demo</a>
                   </div>
                   </div>
                 </div>
@@ -58,30 +58,22 @@ const Projects = () => {
                 <div className="portfolio-img">                 
                   <img src="/images/strapi-project (13).png" alt="" />
                   <div className="project-info padd-15">
-                  <h4>Holidaze - Hotel Booking</h4>  
+                  <h4>Preworkout - E-Commerce</h4>  
                   <div className="stack">
                     <div className="stack-description">
                       <h5>Description:</h5>
-                      <ul>
-                        <li>Make a Hotel booking website located in Bergen</li>
-                        <li>An Admin page using jwt tokens.</li>
-                        <li>Using strapi api as backend for the project connected to Heroku.</li>
-                      </ul>
+                      <p>E-commerce site that sells supplement called Preworkout.</p>
                     </div>
                     <div className="stack-used">
                       <h5>Built With:</h5>
                       <ul>
-                        <li>NextJS</li>
-                        <li>Boostrap</li>
-                        <li>Sass</li>
-                        <li>Heroku</li>
+                        <li>Vanilla JS</li>
                         <li>Strapi</li>
                       </ul>
                     </div>
                   </div>
                   <div className="project-links">
-                    <a>Github</a>
-                    <a>Live Demo</a>
+                    <a href="https://github.com/Matskrane/mats-krane-semester-project-2">Github</a>
                   </div>
                   </div>
                 </div>
@@ -92,32 +84,25 @@ const Projects = () => {
              <div className="portfolio-item padd-15">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/images/blog.png" alt="" />
+                  <img src="/images/Screenshot (21).png" alt="" />
                   <div className="project-info padd-15">
-                  <h4>Holidaze - Hotel Booking</h4>  
+                  <h4>Api and Login with NextjS</h4>  
                   <div className="stack">
                     <div className="stack-description">
                       <h5>Description:</h5>
-                      <ul>
-                        <li>Make a Hotel booking website located in Bergen</li>
-                        <li>An Admin page using jwt tokens.</li>
-                        <li>Using strapi api as backend for the project connected to Heroku.</li>
-                      </ul>
+                      <p>This project card will be removed when feedback is given, since i already have a next project</p>
                     </div>
                     <div className="stack-used">
                       <h5>Built With:</h5>
                       <ul>
                         <li>NextJS</li>
-                        <li>Boostrap</li>
+                        <li>Hooks</li>
                         <li>Sass</li>
-                        <li>Heroku</li>
-                        <li>Strapi</li>
                       </ul>
                     </div>
                   </div>
                   <div className="project-links">
-                    <a>Github</a>
-                    <a>Live Demo</a>
+                    <a href="https://github.com/Noroff-FEU-Assignments/js-frameworks-course-assignment-Matskrane">Github</a>
                   </div>
                   </div>
                 </div>
@@ -125,58 +110,7 @@ const Projects = () => {
             </div>
             
              
-             <div className="portfolio-item padd-15">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="/images/bootstrap-project.png" alt="" />
-                  <div className="project-info padd-15">
-                  <h4>Holidaze - Hotel Booking</h4>  
-                  <div className="stack">
-                    <div className="stack-description">
-                      <h5>Description:</h5>
-                      <ul>
-                        <li>Make a Hotel booking website located in Bergen</li>
-                        <li>An Admin page using jwt tokens.</li>
-                        <li>Using strapi api as backend for the project connected to Heroku.</li>
-                      </ul>
-                    </div>
-                    <div className="stack-used">
-                      <h5>Built With:</h5>
-                      <ul>
-                        <li>NextJS</li>
-                        <li>Boostrap</li>
-                        <li>Sass</li>
-                        <li>Heroku</li>
-                        <li>Strapi</li>
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="project-links">
-                    <a>Github</a>
-                    <a>Live Demo</a>
-                  </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-             
-             <div className="portfolio-item padd-15">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="images/portfolio/portfolio-5.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-            
-             
-             <div className="portfolio-item padd-15">
-              <div className="portfolio-item-inner shadow-dark">
-                <div className="portfolio-img">
-                  <img src="images/portfolio/portfolio-6.jpg" alt="" />
-                </div>
-              </div>
-            </div>
+
             
           </div>
         </div>
