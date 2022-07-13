@@ -21,9 +21,9 @@ const About = () => {
                   <p>
                    What have I learned so far ?
                    <br></br>
-                   With UI/UX I have experience in Adobe XD, Figma and Wordpress, I also have some experience user testing.
+                   With UI/UX I have experience in Adobe XD, Figma and Wordpress, I also have some experience in user testing.
                    <br></br>
-                   Programming Languages that is noteworthy is Vanilla Javascript, React, Typescript and NextJS.
+                   Programming Languages that is noteworthy is Vanilla Javascript, React, NextJS and some experience with Typescript.
                   </p>
                 </div>
               </div>
@@ -76,7 +76,7 @@ const About = () => {
                 <div className="skills padd-15">
                   <div className="row">
                     <div className="skill-item padd-15">
-                      <h5>JS</h5>
+                      <h5>Javascript</h5>
                       <div className="progress">
                         <div className="progress-in" style={{width: '60%'}}></div>
                         <div className="skill-percent">60%</div>
@@ -85,15 +85,15 @@ const About = () => {
                     <div className="skill-item padd-15">
                       <h5>React</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{width: '70%'}}></div>
-                        <div className="skill-percent">70%</div>
+                        <div className="progress-in" style={{width: '80%'}}></div>
+                        <div className="skill-percent">80%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>HTML</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{width: '80%'}}></div>
-                        <div className="skill-percent">80%</div>
+                        <div className="progress-in" style={{width: '90%'}}></div>
+                        <div className="skill-percent">90%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">

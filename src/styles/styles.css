@@ -892,6 +892,12 @@ img {
   margin-bottom: -5px;
 }
 
+.footer {
+  color: white;
+  margin-top: 30%;
+  left: 50%;
+}
+
 #light .label {
   color: #302e4d;
 }
