@@ -25,7 +25,6 @@
     border: 6px solid $bg-black-100;
     border-radius: 10px;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
@@ -65,7 +64,6 @@
 }
 
 .stack li {
-    list-style-type: circle;
     margin-left: 15px;
     padding-right: 5px;
     margin-top: 5px;
@@ -108,5 +106,28 @@
     }
     .portfolio .portfolio-heading h2 {
         color: $dark-text-black-900;
+    }
+    .project-info {
+        background-color: $dark-bg-black-100;
+    }
+    .project-info h4 {
+        color: $dark-text-black-900;
+        border-bottom: 2px solid $bg-black-50;
+    }
+    .project-info h5 {
+        color: $dark-text-black-900;
+    }
+    .stack {
+        color: $dark-text-black-700;
+    }  
+    .stack li::marker {
+        color: $orange-skin-color;
+    }
+    .stack ul li::before {
+        color: $orange-skin-color;
+    }
+    .project-links a {
+        color: $dark-text-black-700;
+        border-bottom: 2px solid $bg-black-50;
     }
 }

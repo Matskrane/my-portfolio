@@ -11,8 +11,11 @@ const Home = () => {
                     <div className='home-info padd-15'>
                         <h3 className='hello'> Hello, my name is <span className='name'>Mats Lian Krane</span></h3>
                         <h3 className='my-profession'>I'm a <span className='typing'>Frontend Developer</span></h3>
-                        <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa egestas mollis varius;
-                           dignissim elementum. Mollis tincidunt mattis hendrerit dolor eros enim, nisi ligula ornare.
+                        <p>I currently live in Mo i Rana, northern Norway. I recently finished 2 years of studying at Noroff. <br></br>
+                        My Hobbies are gaming and going to the gym.
+                        <br></br>
+                        <br></br>
+                           I'm looking for a job where i can develop my skills even further and create cool things.
                         </p>
                         <Link to={'/about'} className='btn hire-me'>More About Me</Link>
                     </div>

@@ -19,14 +19,11 @@ const About = () => {
                     I'm Mats Lian Krane and a <span>Frontend Developer</span>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Totam quo ea commodi autem eius id error. Corporis inventore
-                    adipisci hic sequi! Blanditiis architecto reprehenderit
-                    rerum assumenda, illum aliquam quae dolore nobis laudantium
-                    incidunt maiores harum officiis animi commodi! Ipsam
-                    exercitationem molestias, non et velit facilis cupiditate,
-                    ducimus, dolor harum explicabo cum necessitatibus obcaecati
-                    minima dignissimos.
+                   What have I learned so far ?
+                   <br></br>
+                   With UI/UX I have experience in Adobe XD, Figma and Wordpress, I also have some experience user testing.
+                   <br></br>
+                   Programming Languages that is noteworthy is Vanilla Javascript, React, Typescript and NextJS.
                   </p>
                 </div>
               </div>
@@ -118,32 +115,26 @@ const About = () => {
                         <div className="timeline-item">
                           <div className="circle-dot"></div>
                           <h3 className="timeline-date">
-                            <i className="fa fa-calendar"></i> 2013 - 2018
-                          </h3>
-                          <h4 className="timeline-title">
-                            Tärnaby Alpine School
-                          </h4>
-                          <p className="timeline-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. A, maiores. Facere, minus? Quam minus autem
-                            quidem similique dignissimos cumque dolorum quis
-                            optio blanditiis, doloremque veritatis.
-                          </p>
-                        </div>
-
-                        <div className="timeline-item">
-                          <div className="circle-dot"></div>
-                          <h3 className="timeline-date">
                             <i className="fa fa-calendar"></i> 2020 - 2022
                           </h3>
                           <h4 className="timeline-title">
                             Noroff Frontend
                           </h4>
                           <p className="timeline-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. A, maiores. Facere, minus? Quam minus autem
-                            quidem similique dignissimos cumque dolorum quis
-                            optio blanditiis, doloremque veritatis.
+                          Front-end Development is the technology education where visual design meets coding, web design and UX design.
+                          </p>
+                        </div>
+
+                        <div className="timeline-item">
+                          <div className="circle-dot"></div>
+                          <h3 className="timeline-date">
+                            <i className="fa fa-calendar"></i> 2013 - 2018
+                          </h3>
+                          <h4 className="timeline-title">
+                          Tärnaby Alpine School
+                          </h4>
+                          <p className="timeline-text">
+                           Alpine school in Sweden with normal lectures part time.
                           </p>
                         </div>
 
@@ -159,32 +150,26 @@ const About = () => {
                         <div className="timeline-item">
                           <div className="circle-dot"></div>
                           <h3 className="timeline-date">
-                            <i className="fa fa-calendar"></i> 2016 - 2021
+                            <i className="fa fa-calendar"></i> 2020 - 2022
                           </h3>
                           <h4 className="timeline-title">
-                            Nokas Security
+                            Vinmonopolet
                           </h4>
                           <p className="timeline-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. A, maiores. Facere, minus? Quam minus autem
-                            quidem similique dignissimos cumque dolorum quis
-                            optio blanditiis, doloremque veritatis.
+                            Working as a Cashier/Salesman.
                           </p>
                         </div>
 
                         <div className="timeline-item">
                           <div className="circle-dot"></div>
                           <h3 className="timeline-date">
-                            <i className="fa fa-calendar"></i> 2021 - 2022
+                            <i className="fa fa-calendar"></i> 2016 - 2021
                           </h3>
                           <h4 className="timeline-title">
-                            Vinmonopolet
+                          Nokas Security
                           </h4>
                           <p className="timeline-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. A, maiores. Facere, minus? Quam minus autem
-                            quidem similique dignissimos cumque dolorum quis
-                            optio blanditiis, doloremque veritatis.
+                            Security guard patrolling around the city.
                           </p>
                         </div>
 

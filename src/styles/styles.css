@@ -610,7 +610,6 @@ h3.my-profession {
   border: 6px solid #fdf9ff;
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
@@ -650,7 +649,6 @@ h3.my-profession {
 }
 
 .stack li {
-  list-style-type: circle;
   margin-left: 15px;
   padding-right: 5px;
   margin-top: 5px;
@@ -690,6 +688,29 @@ h3.my-profession {
 }
 #dark .portfolio .portfolio-heading h2 {
   color: #ffffff;
+}
+#dark .project-info {
+  background-color: #222222;
+}
+#dark .project-info h4 {
+  color: #ffffff;
+  border-bottom: 2px solid #e8dfec;
+}
+#dark .project-info h5 {
+  color: #ffffff;
+}
+#dark .stack {
+  color: #e9e9e9;
+}
+#dark .stack li::marker {
+  color: #fa5b0f;
+}
+#dark .stack ul li::before {
+  color: #fa5b0f;
+}
+#dark .project-links a {
+  color: #e9e9e9;
+  border-bottom: 2px solid #e8dfec;
 }
 
 .contact-title {
@@ -891,43 +912,35 @@ img {
   .section .container {
     padding-top: 70px;
   }
-
   .aside {
     left: 0;
     max-width: 500px;
     box-sizing: border-box;
     width: 100%;
   }
-
   .desktop {
     display: none;
   }
-
   .mobile {
     transition: ease-in;
   }
-
   .nav-toggler {
     display: flex;
     z-index: 11;
     left: 80%;
   }
-
   .section {
     left: 0;
   }
-
   .about .about-content .personal-info .info-item p span {
     display: block;
     margin-left: 0;
   }
-
   .label {
     font-size: 13px;
     margin-top: 10px;
     margin-left: 10px;
   }
-
   .switch label {
     width: 120px;
   }
@@ -939,16 +952,13 @@ img {
     flex: 0 0 50%;
     max-width: 50%;
   }
-
   .home .home-info {
     flex: 0 0 100%;
     max-width: 100%;
   }
-
   .home .home-img {
     display: none;
   }
-
   .switch {
     margin-left: 0;
     position: absolute;
@@ -966,15 +976,12 @@ img {
     flex: 0 0 100%;
     max-width: 100%;
   }
-
   .contact .contact-info-item {
     margin-bottom: 10px;
   }
-
   .section-title {
     margin-bottom: 40px;
   }
-
   .about .about-content .personal-info .info-item span {
     word-break: break-all;
   }
