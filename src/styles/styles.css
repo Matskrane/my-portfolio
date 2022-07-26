@@ -172,6 +172,17 @@
   margin-right: 15px;
 }
 
+.github-link {
+  text-align: center;
+  position: relative;
+  bottom: -200px;
+}
+
+.github-link a {
+  color: #302e4d;
+  font-size: 35px;
+}
+
 #dark .section {
   background: #151515;
 }
@@ -211,6 +222,9 @@
 #dark .nav-toggler span::after,
 #dark .nav-toggler span::before {
   background-color: #fa5b0f;
+}
+#dark .github-link a {
+  color: #ffffff;
 }
 
 .home {

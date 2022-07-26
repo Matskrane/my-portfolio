@@ -1,4 +1,5 @@
 import { faBriefcase, faComments, faHouse, faUser } from '@fortawesome/free-solid-svg-icons';
+import { FaGithub } from "react-icons/fa";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
@@ -29,10 +30,13 @@ const SideBar = () => {
                 <li><NavLink style={currentActiveNavLink} to={'/about'}><FontAwesomeIcon  icon={faUser} />About</NavLink></li>
                 <li><NavLink style={currentActiveNavLink} to={'/projects'}><FontAwesomeIcon icon={faBriefcase} />Projects</NavLink></li>
                 <li><NavLink style={currentActiveNavLink} to={'/contact'}><FontAwesomeIcon icon={faComments} />Contact</NavLink></li>
+                <div className='github-link'>
+                <a href="https://github.com/matskrane" target="_blank" rel="noreferrer"><FaGithub /></a>
+                </div>
             </ul>         
         </div>
         )}
-               <div className='aside desktop'>
+            <div className='aside desktop'>
             <div className='logo'>
                 <Link to={'/'}><span>𝗠</span>ats</Link>
             </div>     
@@ -41,7 +45,10 @@ const SideBar = () => {
                 <li><NavLink style={currentActiveNavLink} to={'/about'}><FontAwesomeIcon  icon={faUser} />About</NavLink></li>
                 <li><NavLink style={currentActiveNavLink} to={'/projects'}><FontAwesomeIcon icon={faBriefcase} />Projects</NavLink></li>
                 <li><NavLink style={currentActiveNavLink} to={'/contact'}><FontAwesomeIcon icon={faComments} />Contact</NavLink></li>
-            </ul>         
+                <div className='github-link'>
+                <a href="https://github.com/matskrane" target="_blank" rel="noreferrer"><FaGithub /></a>
+                </div>
+            </ul>        
         </div>
     </>
   )
