@@ -299,7 +299,6 @@ h3.my-profession {
 
 .home .home-img img {
   height: 400px;
-  max-width: 350px;
   margin: auto;
   border-radius: 5px;
 }
@@ -974,6 +973,13 @@ img {
     max-width: 100%;
   }
   .home .home-img {
+    flex: none;
+    max-width: 100%;
+  }
+  .home .home-img::after {
+    display: none;
+  }
+  .home .home-img::before {
     display: none;
   }
   .switch {
