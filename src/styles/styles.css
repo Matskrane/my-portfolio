@@ -976,6 +976,9 @@ img {
     flex: none;
     max-width: 100%;
   }
+  .home .home-img img {
+    height: auto;
+  }
   .home .home-img::after {
     display: none;
   }
