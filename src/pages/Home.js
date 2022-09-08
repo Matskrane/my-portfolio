@@ -20,7 +20,7 @@ const Home = () => {
                         <Link to={'/about'} className='btn hire-me'>More About Me</Link>
                     </div>
                     <div className='home-img padd-15'>
-                        <img src="images/myself-2.png" alt='profile'></img>
+                        <img src="images/sticker.png" alt='profile'></img>
                     </div>
               </div>
           </div>

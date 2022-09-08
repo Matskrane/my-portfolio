@@ -12,7 +12,7 @@ import { MaterialUISwitch } from './components/StyledThemeSwitcher';
 
 function App() {
 
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   const toggleTheme = () => {
     setTheme((current) => (current === "light" ? "dark" : "light"));

@@ -105,6 +105,32 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="portfolio-item padd-15">
+              <div className="portfolio-item-inner shadow-dark">
+                <div className="portfolio-img">                 
+                  <img src="/images/bootstrap-project.png" alt="" />
+                  <div className="project-info padd-15">
+                  <h4>The Yay company - Bootstrap project</h4>  
+                  <div className="stack">
+                    <div className="stack-description">
+                      <h5>Description:</h5>
+                      <p>First project using react bootstrap</p>
+                    </div>
+                    <div className="stack-used">
+                      <h5>Built With:</h5>
+                      <ul>
+                        <li>React Bootstrap</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="project-links">
+                    <a href="https://github.com/Matskrane/bootstrap-project" target="_blank" rel="noreferrer">Github</a>
+                    <a href="https://tangerine-paprenjak-f0786a.netlify.app/" target="_blank" rel="noreferrer">Live Demo</a>
+                  </div>
+                  </div>
+                </div>
+              </div>
             </div>    
           </div>
         </div>
