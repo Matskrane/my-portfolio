@@ -48,8 +48,7 @@ h3.my-profession {
     position: absolute;
     height: 80px;
     width: 80px;
-    bottom: -40px;
-    right: 20px;
+    bottom: 5px;
     border-bottom: 10px solid $skin-color;
     border-right: 10px solid $skin-color;
 }
@@ -59,8 +58,8 @@ h3.my-profession {
     position: absolute;
     height: 80px;
     width: 80px;
-    left: 20px;
-    top: -40px;
+    left: -50px;
+    top: -80px;
     border-top: 10px solid $skin-color;
     border-left: 10px solid $skin-color;
 }
@@ -71,9 +70,9 @@ h3.my-profession {
 }
 
 .home .home-img img {
-    height: 400px;
     margin: auto;
     border-radius: 5px;
+    width: 90%;
 }
 
 .row {
@@ -99,6 +98,15 @@ h3.my-profession {
 
 .btn:hover {
     transform: scale(1.05);
+}
+
+
+// mobile 
+
+@media(max-width:900px) { 
+    .btn {
+        margin-bottom: 40px;
+    }
 }
 
 

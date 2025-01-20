@@ -112,20 +112,8 @@ const About = () => {
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
-                        <div className="timeline-item">
-                          <div className="circle-dot"></div>
-                          <h3 className="timeline-date">
-                            <i className="fa fa-calendar"></i> 2020 - 2022
-                          </h3>
-                          <h4 className="timeline-title">
-                            Noroff Frontend
-                          </h4>
-                          <p className="timeline-text">
-                          Front-end Development is the technology education where visual design meets coding, web design and UX design.
-                          </p>
-                        </div>
 
-                        <div className="timeline-item">
+                      <div className="timeline-item">
                           <div className="circle-dot"></div>
                           <h3 className="timeline-date">
                             <i className="fa fa-calendar"></i> 2013 - 2018
@@ -138,6 +126,20 @@ const About = () => {
                           </p>
                         </div>
 
+                        <div className="timeline-item">
+                          <div className="circle-dot"></div>
+                          <h3 className="timeline-date">
+                            <i className="fa fa-calendar"></i> 2020 - 2022
+                          </h3>
+                          <h4 className="timeline-title">
+                            Noroff - Frontend education
+                          </h4>
+                          <p className="timeline-text">
+                          Front-end Development is the technology education where visual design meets coding, web design and UX design.
+                          </p>
+                        </div>
+
+
                       </div>
                     </div>
                   </div>
@@ -147,6 +149,20 @@ const About = () => {
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
+
+                      <div className="timeline-item">
+                          <div className="circle-dot"></div>
+                          <h3 className="timeline-date">
+                            <i className="fa fa-calendar"></i> 2016 - 2021
+                          </h3>
+                          <h4 className="timeline-title">
+                          Nokas Security
+                          </h4>
+                          <p className="timeline-text">
+                            Security guard patrolling around the city.
+                          </p>
+                        </div>
+
                         <div className="timeline-item">
                           <div className="circle-dot"></div>
                           <h3 className="timeline-date">
@@ -163,13 +179,13 @@ const About = () => {
                         <div className="timeline-item">
                           <div className="circle-dot"></div>
                           <h3 className="timeline-date">
-                            <i className="fa fa-calendar"></i> 2016 - 2021
+                            <i className="fa fa-calendar"></i> 2022 - Ongoing
                           </h3>
                           <h4 className="timeline-title">
-                          Nokas Security
+                          Skatteetaten 
                           </h4>
                           <p className="timeline-text">
-                            Security guard patrolling around the city.
+                            Frontend developer
                           </p>
                         </div>
 
