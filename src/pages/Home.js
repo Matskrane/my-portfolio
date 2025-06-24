@@ -20,7 +20,7 @@ const Home = () => {
                         <Link to={'/about'} className='btn hire-me'>More About Me</Link>
                     </div>
                     <div className='home-img padd-15'>
-                        <img src="images/profile.picture.jpg" alt='profile-picture'></img>
+                        <img src="images/profile.picture.jpg" alt='profile'></img>
                     </div>
               </div>
           </div>
